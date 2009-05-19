@@ -1,5 +1,7 @@
+/* @override http://10.0.1.60:3000/stylesheets/screen.css?1242701841 */
+
 body {
-	background-color: #eaeaea;
+	background-color: #fff1da;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 87.5%;
 	line-height: 1.5em;
@@ -13,7 +15,7 @@ HTML TAGS
 */
 
 a {
-  color:#c52f24;
+  color:#902;
 }
 
 h1 {
@@ -93,7 +95,7 @@ h1#title {
 }
 
 h1#title span.listing-total {
-    color:#C52F24;
+    color:#902;
     font-size:0.5em;
     font-style:italic;
     font-weight:normal;
@@ -153,7 +155,7 @@ LAYOUT GENERALS
 */
 
 #header {
-  background:#C52F24 url(../images/header_tile.gif) repeat-x scroll 0 0;
+  background: #902 url(../images/header_tile.gif) repeat-x scroll 0 0;
   color:#FFFFFF;
   overflow:hidden;
   padding:1em 0;
@@ -188,8 +190,7 @@ LAYOUT GENERALS
 }
 
 #bottom {
-  background: #eaeaea url(../images/bottom-bg.png) no-repeat top left;
-  clear:both;
+  width: 650px;
   height:20px;
 }
 
@@ -209,7 +210,7 @@ SIDEBAR NAVIGATION
   -moz-border-radius-topright:10px;
   -webkit-border-top-right-radius:10px;
   -webkit-border-bottom-right-radius:10px;
-  background:#C52F24 url(../images/nav-shadow-left.png) repeat-y scroll left center;
+  background:#902 url(../images/nav-shadow-left.png) repeat-y scroll left center;
   color:#FFFFFF;
   float:left;
   margin-top:20px;
@@ -361,8 +362,8 @@ PAGINATION
 }
 
 #pagination span.current {
-  border-bottom:2px solid #C52F24;
-  color:#C52F24;
+  border-bottom:2px solid #902;
+  color:#902;
   font-weight:bold;
 }
 
